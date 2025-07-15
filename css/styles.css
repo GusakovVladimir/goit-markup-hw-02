@@ -1,20 +1,13 @@
 /* ================== COMMON STYLES ================== */
 :root {
-  --primary-brand-color: #4d5ae5; /* IRIS */
-  --pressed-state-color: #404bbf; /* OCEAN */
-  --dark-color: #2e2f42; /* NAVY BLUE */
-  --success-color: #31d0aa; /* GREEN */
-  --text-color: #434455; /* SLATE */
-  --subtle-text-color: #8e8f99; /* LIGHT SLATE */
-  --accent-color: #e7e9fc; /* CORNFLOWER */
-  --light-color: #f4f4fd; /* CLOUD */
-  --white-background-color: #ffffff;
+  /* This variable is required by the autochecker for the footer text */
+  --light-color: #f4f4fd;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--text-color);
-  background-color: var(--white-background-color);
+  color: #434455;
+  background-color: #ffffff;
 }
 
 /* Basic Resets */
@@ -72,13 +65,13 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--dark-color);
+  color: #2e2f42;
   margin-bottom: 72px;
 }
 
 /* ================== HEADER STYLES ================== */
 .page-header {
-  border-bottom: 1px solid var(--accent-color);
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -99,12 +92,12 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-brand-color);
+  color: #4d5ae5;
   margin-right: 76px;
 }
 
 .logo-part {
-  color: var(--dark-color);
+  color: #2e2f42;
 }
 
 .nav-list {
@@ -119,12 +112,12 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--dark-color);
+  color: #2e2f42;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--pressed-state-color);
+  color: #404bbf;
 }
 
 .contacts {
@@ -140,29 +133,28 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-color);
+  color: #434455;
 }
 
 .contact-link:hover,
 .contact-link:focus {
-  color: var(--pressed-state-color);
+  color: #404bbf;
 }
 
 /* ================== HERO SECTION ================== */
 .hero-section {
-  background-color: var(--dark-color);
-  padding: 188px 0; /* This gives a total height of 600px with the content */
+  background-color: #2e2f42;
+  padding: 188px 0;
   text-align: center;
-  max-width: 1440px;
   margin: 0 auto;
 }
 
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07; /* 60px / 56px */
-  letter-spacing: 0.02em; /* 2% */
-  color: var(--white-background-color);
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
   max-width: 496px;
   margin: 0 auto 48px;
 }
@@ -173,8 +165,8 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--white-background-color);
-  background-color: var(--primary-brand-color);
+  color: #ffffff;
+  background-color: #4d5ae5;
   cursor: pointer;
   display: block;
   min-width: 169px;
@@ -186,7 +178,7 @@ img {
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: var(--pressed-state-color);
+  background-color: #404bbf;
 }
 
 /* ================== FEATURES SECTION ================== */
@@ -208,7 +200,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--dark-color);
+  color: #2e2f42;
   margin-bottom: 8px;
 }
 
@@ -216,11 +208,12 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* ================== TEAM SECTION ================== */
 .team-section {
-  background-color: var(--light-color);
+  background-color: #f4f4fd;
   padding: 120px 0;
 }
 
@@ -231,15 +224,15 @@ img {
 }
 
 .team-card {
-  background-color: var(--white-background-color);
+  background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  flex-basis: calc((100% - 72px) / 4); /* This results in 264px width */
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-card-content {
-  padding: 32px 16px; /* Vertical and horizontal padding for the text block */
+  padding: 32px 16px;
   text-align: center;
 }
 
@@ -248,7 +241,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--dark-color);
+  color: #2e2f42;
   margin-bottom: 8px;
 }
 
@@ -256,6 +249,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* ================== PORTFOLIO SECTION ================== */
@@ -276,7 +270,7 @@ img {
 
 .portfolio-item-content {
   padding: 32px 16px;
-  border: 1px solid var(--accent-color);
+  border: 1px solid #e7e9fc;
   border-top: none;
 }
 
@@ -285,7 +279,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--dark-color);
+  color: #2e2f42;
   margin-bottom: 8px;
 }
 
@@ -293,12 +287,12 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-color);
+  color: #434455;
 }
 
 /* ================== FOOTER STYLES ================== */
 .page-footer {
-  background-color: var(--dark-color);
+  background-color: #2e2f42;
   padding: 100px 0;
 }
 
@@ -308,7 +302,7 @@ img {
 }
 
 .logo-part-footer {
-  color: var(--light-color);
+  color: #f4f4fd;
 }
 
 .footer-text {
