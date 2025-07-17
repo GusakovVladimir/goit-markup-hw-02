@@ -1,0 +1,87 @@
+body {
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+  color: #2e2f42;
+}
+.logo {
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 1.16px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #4d5ae5;
+}
+.logo-part {
+  color: #2e2f42;
+}
+.nav-list {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #2e2f42;
+}
+.email {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-style: normal;
+  color: #434455;
+  text-decoration: none;
+}
+.tel {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-style: normal;
+  color: #434455;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.effective-solutions {
+  background: #2e2f42;
+}
+.effective-solutions-text {
+  color: #ffffff;
+  font-size: 56px;
+  line-height: 1.07;
+  font-weight: 700;
+  text-align: center;
+}
+nav > ul > li > a {
+  color: #2e2f42;
+  text-decoration: none;
+}
+.btn {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.btn:hover {
+  color: orange;
+}
+.btn:active {
+  color: tomato;
+}
+.btn:focus {
+  color: red;
+}
+
+.page-footer {
+  background: #2e2f42;
+  color: #ffffff;
+}
+.logo-part-footer {
+  color: #ffffff;
+}
+.page-footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
