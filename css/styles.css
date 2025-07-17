@@ -1,6 +1,6 @@
 body {
-  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
-  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
   background-color: #ffffff;
 }
 ul,
@@ -21,11 +21,11 @@ a {
   color: #4d5ae5;
 }
 
-.logo-part1 {
+.logo-part-one {
   color: #2e2f42;
 }
 
-.logo-part2 {
+.logo-part-too {
   color: #f4f4fd;
 }
 
@@ -76,7 +76,8 @@ a {
   font-weight: 500;
   letter-spacing: 0.04em;
 }
-.btn:hover {
+.btn:hover,
+.btn:focus {
   background-color: #404bbf;
 }
 
@@ -94,13 +95,20 @@ a {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
+.team {
+  background-color: #f4f4fd;
+}
+.team-list {
+  background-color: #ffffff;
+}
 .team-page {
   color: #2e2f42;
   font-size: 36px;
-  line-height: 1.12;
+  line-height: 1.11;
   font-weight: 700;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 .team-name {
   color: #2e2f42;
@@ -121,10 +129,11 @@ a {
 .potfolio-page {
   color: #2e2f42;
   font-size: 36px;
-  line-height: 1.12;
+  line-height: 1.11;
   font-weight: 700;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 .portfolio-list {
   color: #2e2f42;
@@ -148,5 +157,6 @@ a {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
-  color: #ffffff;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
