@@ -225,7 +225,8 @@ a {
 }
 
 .card-content {
-  padding: 32px 16px; /* B4: Проміжок між рамкою і контентом */
+  padding-top: 32px;
+  padding-bottom: 32px;
   text-align: center;
 }
 
